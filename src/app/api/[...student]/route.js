@@ -5,3 +5,4 @@ export async function GET(request, content) {
   console.log(studentDetails);
   return NextResponse.json({ studentDetails });
 }
+
